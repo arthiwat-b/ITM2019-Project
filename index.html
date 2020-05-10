@@ -8,42 +8,20 @@
 
 <body>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <a-scene>
-        <a-sky color="#acf"></a-sky>
-    </a-scene>
+<a-scene >
+      <a-sky color="#ddcccc"></a-sky>
+  <!--โครงสร้างตรงกลางของตึก-->
+      <a-box position="2 0 -7" depth="5.5" height="2.4" width="0.85" src="https://i.imgur.com/sMZi077.jpg"></a-box>
+      <a-box position="0 0 -7" rotation="0 90 0" depth="10" height="2.4" width="1" src="https://i.imgur.com/sMZi077.jpg"></a-box>
+      <a-box position="6.1 -0.25 -7" rotation="0 90 0" depth="2.25" height="1.85" width="1.95" src="https://i.imgur.com/sMZi077.jpg"></a-box>
+     <a-box position="-4.58 0.69 -6.08" depth="0.85" height="3.75" width="0.85" src="https://i.imgur.com/sMZi077.jpg"></a-box>
+     <a-box position="-4.58 0.69 -7.92" depth="0.85" height="3.75" width="0.85" src="https://i.imgur.com/sMZi077.jpg"></a-box>
 
-    <a-scene>
-        <!-- อาคาร ส่วนล่าง ยาวเข้าไป -->
-        <a-box position="0 -10 -100" color="hsl(0, 100%, 40%)" depth="100" height="10" width="15"></a-box>
-        <!-- อาคาร ส่วนบน ยาวเข้าไป -->
-        <a-box position="0 0 -100" color="hsl(30, 100%, 40%)" depth="100" height="10" width="10"></a-box>
-        <!-- หลังคา -->
-        <a-box position="0 5 -100" color="hsl(30, 100%, 40%)" depth="100" height="7" width="7" rotation="0 0 45"></a-box>
+<!--หลังคาของตึกตรงกลาง-->
+     <a-box position="0 1.2 -7" rotation="0 90 45" depth="9.995" height="0.75" width="0.75" color="#4e5ba2"></a-box>
+     <a-box position="2 1.2 -7" rotation="0 0 45" depth="5.495" height="0.65" width="0.65" color="#4e5ba2"></a-box>
 
-        <!-- อาคาร ด้านขวาง -->
-        <a-box position="0 -5 -90" color="hsl(80, 0%, 40%)" depth="10" height="20" width="30"></a-box>
-        <!-- หลังคา -->
-        <a-box position="0 5 -90" color="hsl(80, 0%, 40%)" depth="7" height="7" width="30" rotation="45 0 0"></a-box>
+</a-scene>
 
-
-        <!-- เสาข้างหน้า ทางซ้าย -->
-        <a-box position="10 5 -55" color="hsl(160, 100%, 40%)" depth="10" height="40" width="10"></a-box>
-
-
-        <!-- เสาข้างหน้า ทางขวา -->
-        <a-box position="-10 5 -55" color="hsl(160, 100%, 40%)" depth="10" height="40" width="10"></a-box>
-
-
-
-        
-        <!-- รูปทรงต่างๆ  -->
-        <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box> -->
-        <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"  roughness=".4"></a-sphere> -->
-        <!-- <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D" roughness=".4"></a-cylinder> -->
-        <!-- <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane> -->
-
-
-    </a-scene>
-    
 </body>
 </html>
