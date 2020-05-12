@@ -2,6 +2,7 @@
 สวัสดีฮะวันนี้พวกเราได้ทำแบบจำลองมหาวิหารเวสต์มินสเตอร์ โดยใช้ A-Frame ถ้าคุณอยากรู้ว่ามันเป็นยังไง กดไปที่ลิงก์ข้างล่างได้เล้ยย 
 
 > https://tarit.in.th/westminster_abbey/
+
 > https://thirsty-hodgkin-90cc3d.netlify.app
 
 
