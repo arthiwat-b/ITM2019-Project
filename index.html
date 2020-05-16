@@ -13,7 +13,8 @@
             <img src="https://serving.photos.photobox.com/073969247ca6c6ba66c7d925c8a07cf12148aacd19047438f01c707ba407b539d89cdc06.jpg" id="texture">
          </a-assets>
          <!-- <a-sky color="#ddcccc"></a-sky> -->
-         <a-entity position="0 0.2 -2">
+         <!-- 0 0.2 -2 -->
+         <a-entity position="-1 0.2 -15" rotation="0 180 0" > 
             <!--โครงสร้างหลัก-->
             <a-entity position="0 -0.2 0" environment="preset: forest; grid: none"></a-entity>
             <!-- <a-plane position="0 -0.4 -7" rotation="-90 0 0" width="15" height="10" color="#B5CCBD"></a-plane> -->
@@ -23,6 +24,11 @@
                <a-box position="2 2.7 -7" rotation="0 0 45" depth="5.495" height="0.7" width="0.7" src="https://i.imgur.com/ZSLlSzK.jpg"></a-box>
                <a-box position="2.75 0.7 -7" depth="5.5" height="2" width="0.5" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
                <a-box position="1.25 0.7 -7" depth="5.5" height="2" width="0.5" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
+               <!-- กลมๆ ชั้นบนด้านขวาง สองฝั่ง-->
+               <a-circle radius = "0.4"  position="2 2.1 -4.24" rotation = "0 0 0"  color="hsl(100, 80%, 100%)" src="https://i.imgur.com/inKFN2h.jpg"> </a-circle >
+               <a-circle radius = "0.4"  position="2 2.1 -9.78" rotation = "0 180 0"  color="hsl(100, 80%, 100%)" src="https://i.imgur.com/inKFN2h.jpg"> </a-circle >
+               <!-- ประตู ด้านขวาง -->
+               <a-box position="2 0.2 -9.78" rotation = "0 180 0" depth="0.05" height="1" width="0.8"  color="hsl(100, 80%, 100%)" src=""></a-box>
                <!--ตึกด้านขวางชั้นบน-->
                <a-box position="2 3 -7" depth="1" height="0.8" width="1" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
                <a-box position="2 3.4 -7" rotation="0 0 45" depth="0.995" height="0.7" width="0.7" src="https://i.imgur.com/ZSLlSzK.jpg"></a-box>
@@ -30,7 +36,7 @@
                <a-box position="0 1.2 -7" rotation="0 90 0" depth="10" height="3" width="1" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
                <a-box position="0 2.7 -7" rotation="0 90 45" depth="9.995" height="0.7" width="0.7" src="https://i.imgur.com/ZSLlSzK.jpg"></a-box>
                <!-- ประตู -->
-               <a-box position="-5 0.2 -7" rotation = "0 90 0" depth="0.05" height="1" width="0.8"  color="hsl(100, 80%, 100%)" src="https://lh3.googleusercontent.com/proxy/rmJ9KLC-tR_-ZR033RsCXpwpDpj8aUHqo8akUXm_VMqovu3vnYbCI1pLRouBN0y8KxYXZmBSOhkL0u5JAhTfdciBvN2jHg3KTx1xY8_PxZGP4pRvCZGxXOpKomNC"></a-box>
+               <a-box position="-5 0.2 -7" rotation = "0 90 0" depth="0.05" height="1" width="0.8"  color="hsl(100, 80%, 100%)" src=""></a-box>
                <!--START เสาฝั่งขวา (เริ่มจากซ้าย)-->
                <a-entity position="0 0 0">
                   <a-entity position="-3.55 1.5 -0.62">
