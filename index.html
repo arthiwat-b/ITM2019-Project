@@ -13,8 +13,8 @@
             <img src="https://serving.photos.photobox.com/073969247ca6c6ba66c7d925c8a07cf12148aacd19047438f01c707ba407b539d89cdc06.jpg" id="texture">
          </a-assets>
          <!-- <a-sky color="#ddcccc"></a-sky> -->
-         <!-- 0 0.2 -2 -->
-         <a-entity position="-1 0.2 -15" rotation="0 180 0" > 
+         <!-- ค่า position เริ่มต้นคือ "0 0.2 -2" -->
+         <a-entity position="-1 0.2 -15" rotation="0 180 0" >
             <!--โครงสร้างหลัก-->
             <a-entity position="0 -0.2 0" environment="preset: forest; grid: none"></a-entity>
             <!-- <a-plane position="0 -0.4 -7" rotation="-90 0 0" width="15" height="10" color="#B5CCBD"></a-plane> -->
@@ -35,10 +35,10 @@
                <!--ตึกด้านยาว-->
                <a-box position="0 1.2 -7" rotation="0 90 0" depth="10" height="3" width="1" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
                <a-box position="0 2.7 -7" rotation="0 90 45" depth="9.995" height="0.7" width="0.7" src="https://i.imgur.com/ZSLlSzK.jpg"></a-box>
-               <!-- ประตู -->
+               <!-- ประตู ด้านหน้า -->
                <a-box position="-5 0.2 -7" rotation = "0 90 0" depth="0.05" height="1" width="0.8"  color="hsl(100, 80%, 100%)" src="https://i.imgur.com/sbSINrt.jpg"></a-box>
-               
-               
+               <!-- หน้าต่างบนประตู ด้านหน้า -->
+               <a-box position="-5 2 -7" rotation = "0 90 0" depth="0.05" height="1.4" width="0.8"  color="hsl(100, 80%, 100%)" src="https://i.imgur.com/z56HwiA.jpg"></a-box>
                
 
 
@@ -440,7 +440,9 @@
                   <!-- นาฬิกา ตรงกลาง-->
                   <a-circle radius = "0.2"  position="-5.05 2.5 -6" rotation = "0 -90 0"  color="hsl(100, 80%, 100%)" src="https://images-na.ssl-images-amazon.com/images/I/71aOPVpFerL._AC_SL1300_.jpg"> </a-circle >
                   <!-- หน้าตา ล่าง -->
-                  <a-box position="-5.00 1 -6" depth="0.05" height="2.0" width="0.4" rotation = "0 -90 0" color="hsl(100, 80%, 100%)" src=""></a-box>
+                  <a-box position="-5.00 1 -6" depth="0.05" height="2.0" width="0.4" rotation = "0 -90 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/lY9qxyu.jpg"></a-box>
+                  <!-- หน้าตา ล่าง ด้านข้างของเสาฝั่งขวา-->
+                  <a-box position="-4.5 1 -5.45" depth="0.05" height="2.0" width="0.4" rotation = "0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/lY9qxyu.jpg"></a-box>
                </a-entity>
                <!--เสาซ้ายด้านหลัง-->
                <a-entity position="0 0 -2">
@@ -458,9 +460,18 @@
                   <!-- นาฬิกา ตรงกลาง-->
                   <a-circle radius = "0.2"  position="-5.05 2.5 -6" rotation = "0 -90 0"  color="hsl(100, 80%, 100%)"  src="https://images-na.ssl-images-amazon.com/images/I/71aOPVpFerL._AC_SL1300_.jpg"> </a-circle >
                   <!-- หน้าตา ล่าง -->
-                  <a-box position="-5.00 1 -6" depth="0.05" height="2.0" width="0.4" rotation = "0 -90 0" color="hsl(100, 80%, 100%)" src=""></a-box>
+                  <a-box position="-5.00 1 -6" depth="0.05" height="2.0" width="0.4" rotation = "0 -90 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/lY9qxyu.jpg"></a-box>
                </a-entity>
+               <!-- นาฬิกา ด้านข้างของเสาฝั่งซ้าย-->
+               <a-circle radius = "0.2"  position="-4.5 2.5 -8.51" rotation = "0 180 0"  color="hsl(100, 80%, 100%)"  src="https://images-na.ssl-images-amazon.com/images/I/71aOPVpFerL._AC_SL1300_.jpg"> </a-circle >
+               <!-- หน้าตา ล่าง ด้านข้างของเสาฝั่งซ้าย-->
+               <a-box position="-4.5 1 -8.51" depth="0.05" height="2.0" width="0.4" rotation = "0 180 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/lY9qxyu.jpg"></a-box>
             </a-entity>
+
+
+
+
+
             <!--โบสถ์จิ๋ว-->
             <a-entity>
                <a-cylinder position="4.25 0.2 -3.5" radius="0.7" height="1" src="https://i.imgur.com/ye9qJPH.jpg"></a-cylinder>
