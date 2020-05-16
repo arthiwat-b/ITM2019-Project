@@ -16,10 +16,15 @@
         </a-assets>
         <!-- <a-sky color="#ddcccc"></a-sky> -->
 
+        <!-- START ENVIRONMENT-->
+        <a-entity position="0 -0.2 0" environment="preset: default; grid: none; ground: canyon; groundTexture: walkernoise; dressing: trees; dressingColor: #57892C; dressingAmount: 150; dressingScale: 6;"></a-entity>
+        <!-- END ENVIRONMENT-->
+
         <!-- START Everything-->
-        <a-entity position="0 0 -15" rotation="0 180 0">
+        <!-- For Present [position="5 0 -8" rotation="0 60 0"] -->
+        <a-entity position="5 0 -8" rotation="0 180 0">
             <!-- START ONE PIECE-->
-            <a-entity position="-2 4 -15" scale="2 2 2">
+            <a-entity position="-2 15 -40" scale="2 2 2">
                 <!--โครงหัว-->
                 <a-sphere position="0 2.5 -10" radius="3"></a-sphere>
                 <a-sphere position="0 -1 -10" radius="1.75"></a-sphere>
@@ -87,10 +92,6 @@ delay: 2000;">
             </a-entity>
             <!-- END ONE PIECE-->
 
-            <!-- START ENVIRONMENT-->
-            <a-entity position="0 -0.2 0" environment="preset: default; grid: none; groundTexture: walkernoise; apparatus: trees;"></a-entity>
-            <!-- END ENVIRONMENT-->
-
             <!-- START Entity อิหยังไม่รู้-->
             <a-entity>
                 <!--ตึกด้านขวาง-->
@@ -103,6 +104,66 @@ delay: 2000;">
                 <a-circle radius="0.4" position="2 2.1 -9.78" rotation="0 180 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/inKFN2h.jpg"> </a-circle>
                 <!-- ประตู ด้านขวาง -->
                 <a-box position="2 0.2 -9.78" rotation="0 180 0" depth="0.05" height="1" width="0.8" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/sbSINrt.jpg"></a-box>
+                <!-- START เสามุมประตูด้านขวาง (ฝั่งซ้าย)-->
+                <a-entity position="-1 1 -15.8" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-2.1 1 -15.8" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-2.5 0.2 -15.8" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.6 0.2 -15.8" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <!-- END เสามุมประตูด้านขวาง (ฝั่งซ้าย)-->
+                <!-- START เสามุมประตูด้านขวาง (ฝั่งขวา)-->
+                <a-entity position="-1 1 -10.3" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-2.1 1 -10.3" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-2.5 0.2 -10.3" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.6 0.2 -10.3" rotation="0 180 0">
+                    <a-entity position="-3.55 0 -0.62">
+                        <!-- หน้าต่างบน -->
+                        <a-cone position="0 1.8 -5.45" rotation="180 0 0" height="0.7" radius-bottom="0" radius-top="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.2" height="3" width="0.2" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <!-- END เสามุมประตูด้านขวาง (ฝั่งขวา)-->
                 <!--ตึกด้านขวางชั้นบน-->
                 <a-box position="2 3 -7" depth="1" height="0.8" width="1" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
                 <a-box position="2 3.4 -7" rotation="0 0 45" depth="0.995" height="0.7" width="0.7" src="https://i.imgur.com/ZSLlSzK.jpg"></a-box>
@@ -286,7 +347,158 @@ delay: 2000;">
                     </a-entity>
                 </a-entity>
                 <!--END เสาฝั่งขวา-->
-
+                <!-- START เสาตึกขวาง ฝั่งขวา (ด้านหน้า)-->
+                <a-entity position="-0.7 0 -5.4">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.7 0 -4.85">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.7 0 -4.3">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.7 0 -3.75">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <!-- END เสาตึกขวาง ฝั่งขวา (ด้านหน้า)-->
+                <!-- START เสาตึกขวาง ฝั่งขวา (ด้านหลัง)-->
+                <a-entity position="12.4 0 -5.4">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="12.4 0 -4.85">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="12.4 0 -4.3">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="12.4 0 -3.75">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <!-- END เสาตึกขวาง ฝั่งขวา (ด้านหลัง)-->
                 <!-- START เสาฝั่งขวา ถัดจากประตูกลาง-->
                 <a-entity position="6.5 0 0">
                     <a-entity position="-3.55 1.5 -0.62">
@@ -522,7 +734,164 @@ delay: 2000;">
                     </a-entity>
                 </a-entity>
                 <!--END เสาฝั่งซ้าย-->
-
+                <!-- START เสาตึกขวาง ฝั่งซ้าย (ด้านหน้า)-->
+                <a-entity position="-0.7 0 -6.85">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.7 0 -7.40">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.7 0 -7.95">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.7 0 -8.5">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="-0.7 0 -8.95">
+                    <a-entity position="-3.55 1.5 -0.62" rotation="0 -90 0">
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-4.17 0.2 -0.62" rotation="0 -90 0">
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <!-- END เสาตึกขวาง ฝั่งซ้าย (ด้านหน้า)-->
+                <!-- START เสาตึกขวาง ฝั่งซ้าย (ด้านหลัง)-->
+                <a-entity position="12.4 0 -7.40">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="12.4 0 -7.95">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="12.4 0 -8.5">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <a-entity position="12.4 0 -9.05">
+                    <a-entity position="-4.17 1.5 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างบน -->
+                        <a-box position="-0.27 0.6 -5.6" depth="0.06" height="0.61" width="0.37" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                    <a-entity position="-3.55 0.2 -0.62" rotation="0 90 0">
+                        <!-- หน้าต่างล่าง -->
+                        <a-box position="-0.27 0.7 -5.8" depth="0.06" height="0.65" width="0.4" rotation="0 0 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
+                        <a-cone position="0 1 -5.45" rotation="180 0 0" height="0.5" radius-bottom="0" radius-top="0.05" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-box position="0 1 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0.6 -5.8" rotation="-45 0 0" depth="0.1" height="1" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.1" height="1.538" width="0.1" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                        <a-box position="0 0 -5.45" rotation="0 0 0" depth="0.15" height="0.7" width="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
+                    </a-entity>
+                </a-entity>
+                <!-- END เสาตึกขวาง ฝั่งซ้าย (ด้านหลัง)-->
                 <!-- START เสาฝั่งซ้าย ถัดจากประตูกลาง-->
                 <a-entity position="-7.6 0 0">
                     <a-entity position="6.5 0 -14" rotation="0 180 0">
@@ -607,10 +976,10 @@ delay: 2000;">
                         <!--เสามุมหน้าฝั่งขวา-->
                         <a-box position="-4.1 1.7 -6.395" depth="0.25" height="4.5" width="0.25" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
                     </a-entity>
-                    <a-cone position="-4.15 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                    <a-cone position="-4.85 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                    <a-cone position="-4.85 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                    <a-cone position="-4.15 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
+                    <a-cone position="-4.15 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                    <a-cone position="-4.85 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                    <a-cone position="-4.85 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                    <a-cone position="-4.15 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
                 </a-entity>
                 <!-- START หน้าต่าง-->
                 <!-- หน้าตา บน -->
@@ -623,34 +992,6 @@ delay: 2000;">
                 <!-- END หน้าต่าง-->
                 <!-- END เสาขวาด้านหน้า-->
                 <a-entity>
-                    <a-box position="0 0.7 -6.25" rotation="0 90 0" depth="10" height="2" width="0.5" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
-                    <a-box position="0 0.7 -7.75" rotation="0 90 0" depth="10" height="2" width="0.5" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
-                    <!--ตึกกลมฝั่งขวา-->
-                    <a-cylinder position="3.75 0.7 -7" radius="2" height="2" src="https://i.imgur.com/ye9qJPH.jpg"></a-cylinder>
-                    <!--ตึกด้านยาวฝั่งขวา-->
-                    <a-box position="6 0.7 -7" rotation="0 90 0" depth="2" height="2" width="2" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
-                    <a-box position="6 2.05 -7" rotation="0 90 45" depth="1.995" height="0.7" width="0.7" src="https://i.imgur.com/ZSLlSzK.jpg"></a-box>
-                    <!--ตึกเล็กฝั่งขวา-->
-                    <a-box position="6 0.9 -7" rotation="0 90 0" depth="2" height="2.3" width="1" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
-                    <!--เสาซ้ายด้านหน้า-->
-                    <a-entity>
-                        <a-box position="-4.5 1.7 -6" depth="1" height="4" width="1" src="https://i.imgur.com/ye9qJPH.jpg"></a-box>
-                        <a-box position="-4.5 3.8 -6" depth="1" height="0.2" width="1" src="https://i.imgur.com/sMZi077.jpg"></a-box>
-                        <!--เสามุมหน้าฝั่งขวา-->
-                        <a-box position="-4.9 1.7 -6.395" depth="0.25" height="4.5" width="0.25" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
-                        <!--เสามุมหน้าฝั่งซ้าย-->
-                        <a-box position="-4.9 1.7 -5.60" depth="0.25" height="4.5" width="0.25" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
-                        <!--เสามุมหลังฝั่งซ้าย-->
-                        <a-box position="-4.1 1.7 -5.60" depth="0.25" height="4.5" width="0.25" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
-                        <!--เสามุมหน้าฝั่งขวา-->
-                        <a-box position="-4.1 1.7 -6.395" depth="0.25" height="4.5" width="0.25" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
-                        <!-- START เสาแหลมด้านบน-->
-                        <a-cone position="-4.15 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                        <a-cone position="-4.85 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                        <a-cone position="-4.85 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                        <a-cone position="-4.15 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                        <!-- END เสาแหลมด้านบน-->
-                    </a-entity>
                     <a-entity>
                         <!-- หน้าตา บน -->
                         <a-box position="-5.00 3.2 -6" depth="0.05" height="0.6" width="0.4" rotation="0 -90 0" color="hsl(100, 80%, 100%)" src="https://i.imgur.com/WlT4uJs.png?1"></a-box>
@@ -675,10 +1016,10 @@ delay: 2000;">
                         <!--เสามุมหน้าฝั่งขวา-->
                         <a-box position="-4.1 1.7 -6.395" depth="0.25" height="4.5" width="0.25" src="https://i.imgur.com/8ijJm0K.jpg"></a-box>
                         <!-- START เสาแหลมด้านบน-->
-                        <a-cone position="-4.15 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                        <a-cone position="-4.85 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                        <a-cone position="-4.85 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
-                        <a-cone position="-4.15 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/sMZi077.jpg"></a-cone>
+                        <a-cone position="-4.15 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-cone position="-4.85 4.1 -5.65" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-cone position="-4.85 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
+                        <a-cone position="-4.15 4.1 -6.35" rotation="180 0 0" height="0.95" radius-bottom="0" radius-top="0.15" src="https://i.imgur.com/8ijJm0K.jpg"></a-cone>
                         <!-- END เสาแหลมด้านบน-->
                     </a-entity>
                     <a-entity position="0 0 -2">
